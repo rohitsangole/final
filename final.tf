@@ -18,6 +18,8 @@ resource "aws_subnet" "rohitsa_public_subnet_1" {
   
 }
 #test
+
+#change
 #hello_world
 resource "aws_subnet" "rohitsa_public_subnet_2" {
   vpc_id                  = aws_vpc.rohitsa_app_vpc.id
